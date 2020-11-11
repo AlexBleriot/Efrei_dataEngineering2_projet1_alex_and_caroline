@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sentiment Analysis</title>
+  </head>
+<BODY >
+
+<div id="content">
+<form method="POST" action="">
+    
+     <br>
+     <textarea cols="40" rows="5" name="textTocompute" >Enter text</textarea>
+	 <br>
+   <br></br>
+    <input type = "submit" value="Get sentiment" />
+</form>
+   <br></br>
+   {% if result %}
+	  <div>
+      <p>Sentiment analysis </p>
+    </div>
+    {% endif %}
+   <br>
+   
+   <div>
+    {% if text %}
+    <textarea cols="40" rows="5"  >{{text}}</textarea>
+    {% endif %}
+   </div>
+	<div>
+      
+      {% if result %}
+      <p>{{ result }}</p>
+      {% endif %}
+  </div>
+</div>
+<div id="footer">
+  
+</div>
+
+</BODY>
+</html>
+
+
