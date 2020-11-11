@@ -1,0 +1,2 @@
+# Efrei_dataEngineering2_projet1_alex_and_caroline
+Contenairize sentiments analysis App
